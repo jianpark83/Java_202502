@@ -26,7 +26,7 @@ public class ForExam03 {
 		
 		sum = 0;
 		
-		for(int i=1; i<=number; i=i+2) {
+		for(int i=1; i<=number; i+=2) {
 				sum +=i;             
 		}
 		

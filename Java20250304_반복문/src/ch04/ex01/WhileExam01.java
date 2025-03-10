@@ -8,8 +8,9 @@ public class WhileExam01 {
 		         초기값   조건   증감/감소(변동)
 		   for(int i=1; i<=5; i++) 
 			sum += i;    
-		}
-		System.out.println("sum = " + sum);
+		   }
+		   System.out.println("sum = " + sum);
+		   아래와 같은 조건식이다
          */
 		
 		int sum=0;
