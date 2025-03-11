@@ -9,7 +9,7 @@ public class ForExam4_배열2 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int[] num = new int[5];   //배열선언, int 배열 5개 있다
+		int[] num = new int[5];   //배열선언, 정수형 배열이 5개 있다(int)
 		
 		System.out.println("1번학생 자바점수>>");
 		num[0] = sc.nextInt();
@@ -30,9 +30,6 @@ public class ForExam4_배열2 {
 		int sum = num[0] + num[1] + num[2] + num[3] + num[4];
 		
 		double average = sum/5.0;
-		System.out.printf("총점 : %d, 평균 : %.2f\n", sum, average);
-	
-		
+		System.out.printf("총점 : %d, 평균 : %.2f\n", sum, average);	
 	}
-
 }

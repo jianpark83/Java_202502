@@ -11,6 +11,8 @@ public class ForExam4_배열5 {
 		Scanner sc = new Scanner(System.in);
 		//예시>> int num = 0;
 		
+		//배열 자체에 아래와 같이 초기값을 줄 수 있다, 초기값이 없을 경우 자동으로 0 값으로 세팅
+		//초기값을 줄 경우 new int[] 값을 비워둬야 한다
 		int[] student = new int[] {99,88,-1,33,100,80,50};   //키보드 입력 안받을 경우
 		
 		//int[] numA = new int[5];  //정수만 넣을 수 있다
@@ -36,7 +38,7 @@ public class ForExam4_배열5 {
 		int max = student[0];  //변수 초기값 변경 가능
 		int min = student[0];  
 	
-		for(int i=0; i<7; i++) {
+		for(int i=0; i<7; i++) {   //0~6까지 6번 회전해라
 			if(max < student[i])
 				max =  student[i];
 			

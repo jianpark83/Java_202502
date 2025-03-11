@@ -18,12 +18,10 @@ public class ForExam4_배열3 {
 			sum += num[i];
 		}
 		
-
 		double average = sum/5.0;
 		
 		System.out.printf("총점 : %d, 평균 : %.2f\n", sum, average);
-	
-		
 	}
-
 }
+
+//배열과 반복문
