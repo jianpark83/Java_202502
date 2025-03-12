@@ -16,7 +16,7 @@ public class 함수매개변수있고반환값없는경우02 {
 
 	public static void main(String[] args) {     //진입점, 반드시 있어야 한다!!
      // sum(10);   //함수 호출                    -> int num = 100과 같다 , 실수 입력시 매개변수는 double
-        sum(10, 20);        
+        sum(10, 20);        //인자:10,20
         
         System.out.println("프로그램 종료!!");
 	}
