@@ -1,4 +1,6 @@
-package ex02;
+package ex01;
+
+import ex02.Student;
 
 public class StudentTest {
 

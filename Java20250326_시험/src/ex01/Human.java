@@ -1,7 +1,7 @@
-package ex02;
+package ex01;
 
 public class Human {
-
+	
 	private String name;
 	private int age;
 	private int height;

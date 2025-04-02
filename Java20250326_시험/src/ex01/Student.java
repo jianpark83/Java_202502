@@ -1,6 +1,6 @@
-package ex02;
+package ex01;
 
-public class Student extends Human{
+public class Student {
 
 	private String number;
 	private String major;
@@ -12,7 +12,6 @@ public class Student extends Human{
 		this.major = major;
 	}
 	
-	@Override
 	public String printInformation() {
 		return super.printInformation() + number + "\t" + major;		
 	}
