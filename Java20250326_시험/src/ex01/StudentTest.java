@@ -1,7 +1,5 @@
 package ex01;
 
-import ex02.Student;
-
 public class StudentTest {
 
 	public static void main(String[] args) {

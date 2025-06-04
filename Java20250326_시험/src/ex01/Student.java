@@ -1,6 +1,6 @@
 package ex01;
 
-public class Student {
+public class Student extends Human{
 
 	private String number;
 	private String major;
