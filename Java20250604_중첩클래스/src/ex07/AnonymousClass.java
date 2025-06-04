@@ -6,7 +6,6 @@ package ex07;
 
 interface Printable{
 	void print();
-	void print2();
 }
 
 class Papers{
@@ -34,10 +33,6 @@ class Papers{
 		return new Printable() {
 			@Override
 			public void print() {
-				System.out.println(message);
-			}
-			
-			public void print2() {
 				System.out.println(message);
 			}
 			
