@@ -8,7 +8,13 @@ import java.util.function.Function;
 
 @FunctionalInterface  //이 인터페이스 안에는 추상메소드가 하나만 있다!! 결국, Ramda식을 만들려면 @FunctionalInterface만 가능하다!!
 interface Printable{
-	void print();
+	void print();  //추상메소드
+	
+	default void print2() {  //추상메소드가 아니라 상관없음
+	}
+	
+	static void print3() {  //추상메소드가 아니라 상관없음
+	}
 }
 
 class Papers{
